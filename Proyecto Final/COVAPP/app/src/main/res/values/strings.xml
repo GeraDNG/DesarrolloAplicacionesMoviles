@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Covapp</string>
+    <string name="titleFirstSlide">Hola Mundo 1</string>
+    <string name="titleSecondSlide">Hola Mundo 2</string>
+    <string name="titleThirdSlide">Hola Mundo 3</string>
+    <string name="title_activity_test">testActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="states">
+        <item>Aguascalientes</item>
+        <item>Baja California</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Chiapas</item>
+        <item>Chihuahua</item>
+        <item>Ciudad de México</item>
+        <item>Coahuila</item>
+        <item>Colima</item>
+        <item>Durango</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Hidalgo</item>
+        <item>Jalisco</item>
+        <item>México</item>
+        <item>Michoacán</item>
+        <item>Morelos</item>
+        <item>Nayarit</item>
+        <item>Nuevo León</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+        <item>Querétaro</item>
+        <item>Quintana Roo</item>
+        <item>San Luis Potosí</item>
+        <item>Sinaloa</item>
+        <item>Sonora</item>
+        <item>Tabasco</item>
+        <item>Tamaulipas</item>
+        <item>Tlaxcala</item>
+        <item>Veracruz</item>
+        <item>Yucatán</item>
+        <item>Zacatecas</item>
+    </string-array>
+
+    <string-array name="topics">
+        <item>Comida</item>
+        <item>Enfermo</item>
+        <item>Actividad</item>
+        <item>Precaución</item>
+        <item>Ayuda</item>
+    </string-array>
+    <string name="title_activity_map">Map</string>
+</resources>

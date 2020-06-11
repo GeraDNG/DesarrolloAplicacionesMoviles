@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4EA2A6</color>
+    <color name="colorPrimaryDark">#B0CDD7</color>
+    <color name="colorAccent">#3E8AA4</color>
+    <color name="logoColor">#00474D</color>
+    <color name="blueStrong">#208CD9</color>
+    <color name="gray">#BBBBBB</color>
+    <color name="blue">#B0CDD7</color>
+    <color name="red">#FF4B33</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Patterns  -->
+    <color name="greenPatern">#97D0C0</color>
+    <color name="redPatern">#FF7468</color>
+    <color name="bluePatern">#81B0BD</color>
+    <color name="yellowPatern">#F9E200</color>
+    <color name="lightBluePatern">#B7E2DD</color>
+
+
+</resources>

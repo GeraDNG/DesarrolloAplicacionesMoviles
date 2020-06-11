@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_rounded_white"
+        android:padding="8dp"
+        android:src="@drawable/ic_back_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+    <View
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        android:id="@+id/dividerProfile"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <View
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/layout_bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/UserProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_user"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dividerProfile"
+        app:layout_constraintTop_toTopOf="@+id/dividerProfile"
+        app:layout_constraintEnd_toEndOf="@+id/dividerProfile"
+        app:layout_constraintStart_toStartOf="@+id/dividerProfile" />
+    <androidx.core.widget.NestedScrollView
+        app:layout_constraintTop_toBottomOf="@+id/UserProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginHorizontal="24dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginVertical="8dp"
+                android:textStyle="bold"
+                android:text="Nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="4dp"
+                tools:text="Javier Quezada"
+                android:id="@+id/txtUserNameProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="8dp"
+                android:textStyle="bold"
+                android:text="Correo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="4dp"
+                tools:text="javier@gmail.com"
+                android:id="@+id/txtMailProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
