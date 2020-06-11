@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ActivityDisplayPokemon"
+    android:background="@color/cardview_dark_background"
+
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/imagenPokemon"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/pikachu_min"
+                android:contentDescription="Pokemon"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="198dp"
+                />
+
+            <TextView
+                android:id="@+id/numero"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="208dp"
+                android:layout_marginStart="32dp"
+                android:layout_width="120dp"
+                android:layout_gravity="left"
+                android:text="Número Pokemon:"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/numeroPokemon"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="208dp"
+                android:layout_marginEnd="32dp"
+                android:layout_width="120dp"
+                android:text="964"
+                android:textColor="@color/colorSecondaryText"
+                />
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="232dp"
+                android:layout_marginStart="32dp"
+                android:layout_width="120dp"
+                android:layout_gravity="start"
+                android:text="Nombre Pokemon:"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/nombrePokemon"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="232dp"
+                android:layout_marginEnd="32dp"
+                android:layout_width="120dp"
+                android:text="Pikachu"
+                android:textColor="@color/colorSecondaryText"
+                />
+
+            <TextView
+                android:id="@+id/tipos"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="256dp"
+                android:layout_marginStart="32dp"
+                android:layout_width="120dp"
+                android:layout_gravity="start"
+                android:text="Tipos:"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tiposPokemon"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="256dp"
+                android:layout_marginEnd="32dp"
+                android:layout_width="120dp"
+                android:text="tipos"
+                android:textColor="@color/colorSecondaryText"
+                />
+
+            <TextView
+                android:id="@+id/estadisticas"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="304dp"
+                android:layout_marginStart="32dp"
+                android:layout_width="120dp"
+                android:layout_gravity="start"
+                android:text="Estadísticas:"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/estadisticasPokemon"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="304dp"
+                android:layout_marginEnd="32dp"
+                android:layout_width="120dp"
+                android:text="estadisticas"
+                android:textColor="@color/colorSecondaryText"
+                />
+
+            <TextView
+                android:id="@+id/movimientos"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="416dp"
+                android:layout_marginStart="32dp"
+                android:layout_width="120dp"
+                android:layout_gravity="start"
+                android:text="Movimientos:"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="416dp"
+                android:paddingBottom="8dp"
+                android:layout_gravity="right"
+                android:layout_marginEnd="32dp"
+                android:id="@+id/recycler_view_pokemon"
+                />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
