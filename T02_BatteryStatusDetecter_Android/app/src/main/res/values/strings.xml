@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">T02_BatteryStatusDetecter</string>
+    <string name="titulo_aplicacion">Batería</string>
+</resources>
