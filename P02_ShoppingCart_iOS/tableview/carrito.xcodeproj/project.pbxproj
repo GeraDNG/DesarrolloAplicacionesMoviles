@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		632524DD245B6DE400E75EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632524DC245B6DE400E75EF2 /* AppDelegate.swift */; };
+		632524DF245B6DE400E75EF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632524DE245B6DE400E75EF2 /* SceneDelegate.swift */; };
+		632524E1245B6DE400E75EF2 /* ProductosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632524E0245B6DE400E75EF2 /* ProductosViewController.swift */; };
+		632524E4245B6DE400E75EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632524E2245B6DE400E75EF2 /* Main.storyboard */; };
+		632524E6245B6DE600E75EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632524E5245B6DE600E75EF2 /* Assets.xcassets */; };
+		632524E9245B6DE600E75EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632524E7245B6DE600E75EF2 /* LaunchScreen.storyboard */; };
+		632524F4245B6DE600E75EF2 /* carritoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632524F3245B6DE600E75EF2 /* carritoTests.swift */; };
+		632524FF245B6DE600E75EF2 /* carritoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632524FE245B6DE600E75EF2 /* carritoUITests.swift */; };
+		6325250D245B723F00E75EF2 /* AgregarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325250C245B723F00E75EF2 /* AgregarViewController.swift */; };
+		63252510245B727D00E75EF2 /* PCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325250F245B727D00E75EF2 /* PCTableViewCell.swift */; };
+		ACC7CBD62465EA12007001EA /* cartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7CBD52465EA12007001EA /* cartView.swift */; };
+		ACC7CBD82465F317007001EA /* itemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7CBD72465F317007001EA /* itemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		632524F0245B6DE600E75EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632524D1245B6DE300E75EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632524D8245B6DE400E75EF2;
+			remoteInfo = carrito;
+		};
+		632524FB245B6DE600E75EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632524D1245B6DE300E75EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632524D8245B6DE400E75EF2;
+			remoteInfo = carrito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		632524D9245B6DE400E75EF2 /* carrito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carrito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		632524DC245B6DE400E75EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		632524DE245B6DE400E75EF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		632524E0245B6DE400E75EF2 /* ProductosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosViewController.swift; sourceTree = "<group>"; };
+		632524E3245B6DE400E75EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		632524E5245B6DE600E75EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		632524E8245B6DE600E75EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		632524EA245B6DE600E75EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632524EF245B6DE600E75EF2 /* carritoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carritoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		632524F3245B6DE600E75EF2 /* carritoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carritoTests.swift; sourceTree = "<group>"; };
+		632524F5245B6DE600E75EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632524FA245B6DE600E75EF2 /* carritoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carritoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		632524FE245B6DE600E75EF2 /* carritoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carritoUITests.swift; sourceTree = "<group>"; };
+		63252500245B6DE600E75EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6325250C245B723F00E75EF2 /* AgregarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarViewController.swift; sourceTree = "<group>"; };
+		6325250F245B727D00E75EF2 /* PCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCTableViewCell.swift; sourceTree = "<group>"; };
+		ACC7CBD52465EA12007001EA /* cartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartView.swift; sourceTree = "<group>"; };
+		ACC7CBD72465F317007001EA /* itemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632524D6245B6DE400E75EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632524EC245B6DE600E75EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632524F7245B6DE600E75EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		632524D0245B6DE300E75EF2 = {
+			isa = PBXGroup;
+			children = (
+				632524DB245B6DE400E75EF2 /* carrito */,
+				632524F2245B6DE600E75EF2 /* carritoTests */,
+				632524FD245B6DE600E75EF2 /* carritoUITests */,
+				632524DA245B6DE400E75EF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		632524DA245B6DE400E75EF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				632524D9245B6DE400E75EF2 /* carrito.app */,
+				632524EF245B6DE600E75EF2 /* carritoTests.xctest */,
+				632524FA245B6DE600E75EF2 /* carritoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		632524DB245B6DE400E75EF2 /* carrito */ = {
+			isa = PBXGroup;
+			children = (
+				6325250E245B726800E75EF2 /* Productos */,
+				632524DC245B6DE400E75EF2 /* AppDelegate.swift */,
+				632524DE245B6DE400E75EF2 /* SceneDelegate.swift */,
+				632524E2245B6DE400E75EF2 /* Main.storyboard */,
+				ACC7CBD52465EA12007001EA /* cartView.swift */,
+				ACC7CBD72465F317007001EA /* itemView.swift */,
+				632524E5245B6DE600E75EF2 /* Assets.xcassets */,
+				632524E7245B6DE600E75EF2 /* LaunchScreen.storyboard */,
+				632524EA245B6DE600E75EF2 /* Info.plist */,
+				6325250C245B723F00E75EF2 /* AgregarViewController.swift */,
+			);
+			path = carrito;
+			sourceTree = "<group>";
+		};
+		632524F2245B6DE600E75EF2 /* carritoTests */ = {
+			isa = PBXGroup;
+			children = (
+				632524F3245B6DE600E75EF2 /* carritoTests.swift */,
+				632524F5245B6DE600E75EF2 /* Info.plist */,
+			);
+			path = carritoTests;
+			sourceTree = "<group>";
+		};
+		632524FD245B6DE600E75EF2 /* carritoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				632524FE245B6DE600E75EF2 /* carritoUITests.swift */,
+				63252500245B6DE600E75EF2 /* Info.plist */,
+			);
+			path = carritoUITests;
+			sourceTree = "<group>";
+		};
+		6325250E245B726800E75EF2 /* Productos */ = {
+			isa = PBXGroup;
+			children = (
+				632524E0245B6DE400E75EF2 /* ProductosViewController.swift */,
+				6325250F245B727D00E75EF2 /* PCTableViewCell.swift */,
+			);
+			path = Productos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		632524D8245B6DE400E75EF2 /* carrito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63252503245B6DE600E75EF2 /* Build configuration list for PBXNativeTarget "carrito" */;
+			buildPhases = (
+				632524D5245B6DE400E75EF2 /* Sources */,
+				632524D6245B6DE400E75EF2 /* Frameworks */,
+				632524D7245B6DE400E75EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carrito;
+			productName = carrito;
+			productReference = 632524D9245B6DE400E75EF2 /* carrito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		632524EE245B6DE600E75EF2 /* carritoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63252506245B6DE600E75EF2 /* Build configuration list for PBXNativeTarget "carritoTests" */;
+			buildPhases = (
+				632524EB245B6DE600E75EF2 /* Sources */,
+				632524EC245B6DE600E75EF2 /* Frameworks */,
+				632524ED245B6DE600E75EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				632524F1245B6DE600E75EF2 /* PBXTargetDependency */,
+			);
+			name = carritoTests;
+			productName = carritoTests;
+			productReference = 632524EF245B6DE600E75EF2 /* carritoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		632524F9245B6DE600E75EF2 /* carritoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63252509245B6DE600E75EF2 /* Build configuration list for PBXNativeTarget "carritoUITests" */;
+			buildPhases = (
+				632524F6245B6DE600E75EF2 /* Sources */,
+				632524F7245B6DE600E75EF2 /* Frameworks */,
+				632524F8245B6DE600E75EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				632524FC245B6DE600E75EF2 /* PBXTargetDependency */,
+			);
+			name = carritoUITests;
+			productName = carritoUITests;
+			productReference = 632524FA245B6DE600E75EF2 /* carritoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632524D1245B6DE300E75EF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tecdam;
+				TargetAttributes = {
+					632524D8245B6DE400E75EF2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					632524EE245B6DE600E75EF2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 632524D8245B6DE400E75EF2;
+					};
+					632524F9245B6DE600E75EF2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 632524D8245B6DE400E75EF2;
+					};
+				};
+			};
+			buildConfigurationList = 632524D4245B6DE300E75EF2 /* Build configuration list for PBXProject "carrito" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 632524D0245B6DE300E75EF2;
+			productRefGroup = 632524DA245B6DE400E75EF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				632524D8245B6DE400E75EF2 /* carrito */,
+				632524EE245B6DE600E75EF2 /* carritoTests */,
+				632524F9245B6DE600E75EF2 /* carritoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		632524D7245B6DE400E75EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632524E9245B6DE600E75EF2 /* LaunchScreen.storyboard in Resources */,
+				632524E6245B6DE600E75EF2 /* Assets.xcassets in Resources */,
+				632524E4245B6DE400E75EF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632524ED245B6DE600E75EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632524F8245B6DE600E75EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632524D5245B6DE400E75EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632524E1245B6DE400E75EF2 /* ProductosViewController.swift in Sources */,
+				632524DD245B6DE400E75EF2 /* AppDelegate.swift in Sources */,
+				ACC7CBD62465EA12007001EA /* cartView.swift in Sources */,
+				6325250D245B723F00E75EF2 /* AgregarViewController.swift in Sources */,
+				63252510245B727D00E75EF2 /* PCTableViewCell.swift in Sources */,
+				ACC7CBD82465F317007001EA /* itemView.swift in Sources */,
+				632524DF245B6DE400E75EF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632524EB245B6DE600E75EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632524F4245B6DE600E75EF2 /* carritoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632524F6245B6DE600E75EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632524FF245B6DE600E75EF2 /* carritoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		632524F1245B6DE600E75EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632524D8245B6DE400E75EF2 /* carrito */;
+			targetProxy = 632524F0245B6DE600E75EF2 /* PBXContainerItemProxy */;
+		};
+		632524FC245B6DE600E75EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632524D8245B6DE400E75EF2 /* carrito */;
+			targetProxy = 632524FB245B6DE600E75EF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		632524E2245B6DE400E75EF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632524E3245B6DE400E75EF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		632524E7245B6DE600E75EF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632524E8245B6DE600E75EF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63252501245B6DE600E75EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63252502245B6DE600E75EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63252504245B6DE600E75EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K737MYHN24;
+				INFOPLIST_FILE = carrito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tec.carrito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63252505245B6DE600E75EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K737MYHN24;
+				INFOPLIST_FILE = carrito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tec.carrito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63252507245B6DE600E75EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N4MAZ49LX;
+				INFOPLIST_FILE = carritoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecdam.carritoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carrito.app/carrito";
+			};
+			name = Debug;
+		};
+		63252508245B6DE600E75EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N4MAZ49LX;
+				INFOPLIST_FILE = carritoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecdam.carritoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carrito.app/carrito";
+			};
+			name = Release;
+		};
+		6325250A245B6DE600E75EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N4MAZ49LX;
+				INFOPLIST_FILE = carritoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecdam.carritoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = carrito;
+			};
+			name = Debug;
+		};
+		6325250B245B6DE600E75EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N4MAZ49LX;
+				INFOPLIST_FILE = carritoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecdam.carritoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = carrito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		632524D4245B6DE300E75EF2 /* Build configuration list for PBXProject "carrito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63252501245B6DE600E75EF2 /* Debug */,
+				63252502245B6DE600E75EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63252503245B6DE600E75EF2 /* Build configuration list for PBXNativeTarget "carrito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63252504245B6DE600E75EF2 /* Debug */,
+				63252505245B6DE600E75EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63252506245B6DE600E75EF2 /* Build configuration list for PBXNativeTarget "carritoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63252507245B6DE600E75EF2 /* Debug */,
+				63252508245B6DE600E75EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63252509245B6DE600E75EF2 /* Build configuration list for PBXNativeTarget "carritoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6325250A245B6DE600E75EF2 /* Debug */,
+				6325250B245B6DE600E75EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 632524D1245B6DE300E75EF2 /* Project object */;
+}
